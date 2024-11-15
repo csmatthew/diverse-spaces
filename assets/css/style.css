@@ -61,11 +61,15 @@ ol {
     border-radius: 8px;
 }
 
-.custom-margin {
-    margin-top: -50px;
+.fa-solid {
+    transition: transform 0.3s ease-in-out;
+    color: 
 }
 
-
+.fa-solid:hover {
+    transform: scale(1.3);
+    color: #934F3Fff;
+}
 
 #contact-section {
     background-color: #B6BDB7ff;

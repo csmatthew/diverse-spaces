@@ -16,13 +16,13 @@
 
 li {
     list-style: none;
-    margin-bottom: 16px;
+    margin-bottom: 0px;
 }
 
 ul,
 ol {
     list-style: none;
-    margin-bottom: 16px;
+    margin-bottom: 1rem;
 }
 
 .navbar-brand {

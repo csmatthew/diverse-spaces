@@ -48,23 +48,21 @@ ol {
     background-position: center;
     background-repeat: no-repeat;
     color: white;
-    /* Optional: to ensure text is readable */
     position: relative;
     min-height: 400px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
     padding-bottom: 20px;
-    /* Adjust padding as needed */
 }
 
 .overlay-box {
     background-color: rgba(128, 128, 128, 0.75);
-    /* Medium opacity grey */
     border-radius: 8px;
-    /* Optional: rounded corners */
-    padding: 20px;
-    /* Adjust padding as needed */
+}
+
+.custom-margin {
+    margin-top: -50px;
 }
 
 

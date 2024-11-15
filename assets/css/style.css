@@ -1,16 +1,26 @@
 /* CSS HEX */
+/*
 --ash-gray: #B6BDB7ff;
 --dun: #D8CCB8ff;
 --mint-cream: #E5ECE2ff;
 --midnight-green: #215F6Aff;
 --chestnut: #934F3Fff;
+*/
+.text-lowercase {
+    text-transform: lowercase;
+}
+
+.text-light {
+    font-weight: 100;
+}
 
 li {
     list-style: none;
     margin-bottom: 16px;
 }
 
-ul, ol {
+ul,
+ol {
     list-style: none;
     margin-bottom: 16px;
 }
@@ -20,6 +30,7 @@ ul, ol {
     font-weight: 700;
     font-style: oblique;
 }
+
 .navbar-brand:hover {
     color: #934F3Fff;
 }
@@ -36,20 +47,27 @@ ul, ol {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    color: white; /* Optional: to ensure text is readable */
+    color: white;
+    /* Optional: to ensure text is readable */
     position: relative;
     min-height: 400px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    padding-bottom: 20px; /* Adjust padding as needed */
+    padding-bottom: 20px;
+    /* Adjust padding as needed */
 }
 
 .overlay-box {
-    background-color: rgba(128, 128, 128, 0.5); /* Medium opacity grey */
-    border-radius: 8px; /* Optional: rounded corners */
-    padding: 20px; /* Adjust padding as needed */
+    background-color: rgba(128, 128, 128, 0.75);
+    /* Medium opacity grey */
+    border-radius: 8px;
+    /* Optional: rounded corners */
+    padding: 20px;
+    /* Adjust padding as needed */
 }
+
+
 
 #contact-section {
     background-color: #B6BDB7ff;

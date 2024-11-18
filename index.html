@@ -51,7 +51,7 @@
               <a class="nav-link" href="#">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
+              <a class="nav-link" href="#contact-section">Contact</a>
             </li>
           </ul>
         </div>
@@ -71,21 +71,85 @@
     <!-- Icons Section -->
     <div class="container-fluid bg-light py-5">
       <div class="row text-center">
-        <div class="col-lg-3 col-md-6 mb-4">
-          <i class="fa-solid fa-user-tie fa-3x mb-2"></i>
+        <div class="col-lg-3 col-md-6">
+          <a
+            href="#"
+            data-bs-toggle="modal"
+            data-bs-target="#specialistAreasModal"
+          >
+            <i class="fa-solid fa-user-tie fa-3x mb-2"></i>
+          </a>
           <p>Specialist Areas</p>
         </div>
-        <div class="col-lg-3 col-md-6 mb-4">
+        <div class="col-lg-3 col-md-6">
+          <a
+            href="#"
+            data-bs-toggle="modal"
+            data-bs-target="#corporateTrainingModal"
+          >
           <i class="fa-solid fa-briefcase fa-3x mb-2"></i>
+          </a>
           <p>Corporate Training</p>
         </div>
-        <div class="col-lg-3 col-md-6 mb-4">
-          <i class="fa-solid fa-graduation-cap fa-3x mb-2"></i>
+        <div class="col-lg-3 col-md-6">
+          <a
+            href="#"
+            data-bs-toggle="modal"
+            data-bs-target="#onlineTrainingModal"
+          >
+            <i class="fa-solid fa-graduation-cap fa-3x mb-2"></i>
+          </a>
           <p>Online Training</p>
         </div>
-        <div class="col-lg-3 col-md-6 mb-4">
+        <div class="col-lg-3 col-md-6">
+          <a 
+          href="#contact-section">
           <i class="fa-solid fa-phone fa-3x mb-2"></i>
+        </a>
           <p>Contact Us</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Specialist Areas Modal -->
+    <div
+      class="modal fade"
+      id="specialistAreasModal"
+      tabindex="-1"
+      aria-labelledby="specialistAreasModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="specialistAreasModalLabel">
+              Specialist Areas
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <ul>
+              <li>DEI Training Workshops</li>
+              <li>Workplace Culture Assessment</li>
+              <li>Policy Review and Development</li>
+              <li>Diverse Hiring and Recuitment Strategies</li>
+              <li>Leadership and Executive Coaching</li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
         </div>
       </div>
     </div>

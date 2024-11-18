@@ -28,11 +28,13 @@ ol {
 .navbar-brand {
     font-family: "Oswald", sans-serif;
     font-weight: 700;
+    transition: transform 1s ease-in-out;
 }
 
 .navbar-brand:hover {
     transform: scale(1.3);
     color: #934F3Fff;
+    transition: transform 0.3s ease-in-out;
 }
 
 /* Rotate burger icon on hover */
@@ -63,6 +65,7 @@ ol {
 
 .fa-solid {
     transition: transform 0.3s ease-in-out; 
+    color: #215F6Aff;
 }
 
 .fa-solid:hover {
